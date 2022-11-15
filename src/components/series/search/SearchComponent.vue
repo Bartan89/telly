@@ -15,9 +15,7 @@
 import { useObservable } from "@vueuse/rxjs";
 import { defineComponent } from "vue";
 import { SearchState } from "./search-state";
-import SearchAnimation from "./searchResults/SearchAnimation.vue";
 import SearchResults from "./searchResults/SearchResults.component.vue";
-import CloseSearch from "./CloseSearchComponent.vue";
 
 export default defineComponent({
   data: () => ({
