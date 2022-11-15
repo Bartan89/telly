@@ -1,4 +1,4 @@
-# telly
+# Telly
 
 ## architectural decisions
 
