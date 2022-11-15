@@ -27,7 +27,7 @@ Lastly on the streams. There are some delays. Some to distribute image loading f
 
 Search gets a seperate state object. Input is debounced to assure that not every keystroke makes a trip to te server. The switch strategy afterwards assures that requests ungoing are cancelled if done in quick suscession. 
 
-Throught the whole application everything concerning imagery is lazy loaded until they come into view. While loading the higher res images the lower resolution images are taking their place. 
+Throught the whole application everything concerning imagery is lazy loaded until they come into view. While loading the higher res images the lower resolution images are taking their place (this might lead to glitches but this is due to the images being different. I think the idea is not the problem in that case but the content (which I don't control)). 
 
 At mounting the application the tv shows are fetched recursively, a total of 5 times on 5 random pages. The results are stored and displayed into the dom accordingly. Results are sorted and filtered to give a good experience. 
 
