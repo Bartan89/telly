@@ -28,7 +28,8 @@ export default defineComponent({
 .container {
   box-sizing: border-box;
   display: flex;
-  overflow: auto;
+  overflow-y: hidden;
+  overflow-x: auto;
   width: 100%;
   margin-bottom: 2em;
 }
